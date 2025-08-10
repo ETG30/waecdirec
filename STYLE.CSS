@@ -1,0 +1,120 @@
+:root{
+    color-scheme: dark light;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+}
+.click{
+    background-color: rgb(4, 0, 29);
+    color:wheat
+}
+.p{
+    background-color: white;
+    height:1px;
+}
+.home{
+    background-color: darkslateblue;
+}
+.home  H1{
+    color: white;
+    font-weight: 100;
+    width:60vh;
+}
+.home p {
+    text-align: center;
+}
+.content{
+    background-color: gold;
+    padding: 30px 40px;
+    text-align: center;
+    background-size: contain;
+}
+.content a {
+    color:red;
+    padding: 100px 90px;
+    font-size: 30px;
+}
+.content .info input{
+    border-radius: 50px;
+    width: 90px;
+}
+.content .info button{
+    background-color: darkblue;
+    color: white;
+    border-radius: 50px;
+    width: 90px;
+}
+
+.content .info .side{
+ text-align: right;
+}
+.content .info .side a {
+
+    color: azure;
+   }
+   .content .info .side SPAN {
+
+    color: azure;
+   }
+   .dd {
+    background-color: white;
+   height: 1px;    
+  
+}
+   .content .List ol{
+    text-align: left;
+    font-weight: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ text-decoration: solid;  
+}
+.position{
+    text-align: center;
+    justify-self: center;
+    resize: both;
+}
+.content .FAQ{
+    background-color: blue;
+    text-align: left;
+    width:600px;
+     
+    left:0;
+    justify-self:left;
+    text-align:left;
+}
+.content .FAQ:hover{
+      resize: both;
+    box-sizing: border-box;
+    box-shadow: 0 0 90px #0f0f0f;
+}
+.content .FAQ p{
+    background-color:darkblue ;
+    text-align: left;
+    font-size: 40px;
+    padding: 10px ;
+}
+
+.content .FAQ a{
+text-align: center;
+}
+.content .FAQ summary{
+    color: yellowgreen;
+    font-size: 20px;
+    font-weight: 600;
+}
+.content .FAQ details{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* .content .NISU{
+    background-color: blue;
+    text-align: left;
+    width:600px;
+    resize: both;
+    left:0;
+    justify-self:left;
+    text-align:left; 
+} */
